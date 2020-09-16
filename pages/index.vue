@@ -17,7 +17,7 @@
       </div>
     </div>
     <!-- ルーム作成ボタン -->
-    <div class="fixed flex justify-end bottom-0 w-full max-w-sm">
+    <div class="fixed flex justify-end bottom-0 w-full max-w-sm create-button-color">
       <button @click="openModal">
         <i class="material-icons text-primary text-7xl create-btn gradation">
           add_circle
@@ -78,5 +78,6 @@ export default {
 .create-btn {
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-color: rgba(246, 161, 33, 0.82);
 }
 </style>

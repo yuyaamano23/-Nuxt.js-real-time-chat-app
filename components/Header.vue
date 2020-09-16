@@ -1,15 +1,17 @@
 <template>
-  <header class="fixed top-0 bg-lightblue w-full max-w-sm h-16 py-4 z-10">
+  <!-- <header class="fixed top-0 bg-lightblue w-full max-w-sm h-16 py-4 z-10"> -->
+  <header class="fixed top-0 w-full max-w-sm h-16 py-4 z-10">
     <div class="relative flex justify-center w-full">
         <template v-if="isChatPage">
         <nuxt-link
             to="/"
             class="absolute left-20 flex items-center justify-center no-underline"
         >
+            <!-- <i class="material-icons text-4xl text-white">chevron_left</i> -->
             <i class="material-icons text-4xl text-white">chevron_left</i>
         </nuxt-link>
         </template>
-        <h1 class="text-2xl font-semibold text-white">share-chat</h1>
+        <h1 class="text-2xl font-semibold text-white">programeeting!!</h1>
     </div>
   </header>
 </template>
@@ -22,3 +24,8 @@ export default {
   }
 }
 </script>
+<style>
+header {
+    background-color: rgba(246, 161, 33, 0.82);
+}
+</style>
